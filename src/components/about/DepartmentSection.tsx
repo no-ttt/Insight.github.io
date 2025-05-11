@@ -65,11 +65,6 @@ const DepartmentSection: React.FC<DepartmentSectionProps> = ({
               </div>
             </div>
             <div className={`w-full md:w-4/12 ${bgColor} flex flex-col items-start relative py-10 order-1 md:order-2`}>
-              <img 
-                src="https://images.pexels.com/photos/8851455/pexels-photo-8851455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Decoration" 
-                className="absolute left-0 top-10 h-auto w-6 transform -translate-x-1/2"
-              />
               <div className="px-8 py-6 text-white">
                 <span className="block text-sm">{titleEn}</span>
                 <span className="block text-3xl font-bold">{title}</span>
@@ -79,11 +74,6 @@ const DepartmentSection: React.FC<DepartmentSectionProps> = ({
         ) : (
           <>
             <div className={`w-full md:w-4/12 ${bgColor} flex flex-col items-end relative py-10`}>
-              <img 
-                src="https://images.pexels.com/photos/8851455/pexels-photo-8851455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
-                alt="Decoration" 
-                className="absolute right-0 top-10 h-auto w-6 transform translate-x-1/2 rotate-180"
-              />
               <div className="px-8 py-6 text-white text-right">
                 <span className="block text-sm">{titleEn}</span>
                 <span className="block text-3xl font-bold">{title}</span>

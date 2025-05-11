@@ -114,13 +114,6 @@ const adminStaff = [
     titleEn: "Senior Executive Secretary",
     image: "https://images.pexels.com/photos/5704720/pexels-photo-5704720.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
   },
-  {
-    name: "Huang Mei Ling",
-    nameEn: "HUANG MEI LING",
-    title: "General Affairs",
-    titleEn: "General Affairs",
-    image: "https://images.pexels.com/photos/4350113/pexels-photo-4350113.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
-  }
 ];
 
 const AboutPage = () => {

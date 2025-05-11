@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-2 flex items-center justify-between">
           <Link to="/" className="flex-shrink-0 w-32">
             <img 
-              src="https://images.pexels.com/photos/8937580/pexels-photo-8937580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src="/images/logo.png" 
               alt="i-genomics" 
               className="w-full"
             />
@@ -29,7 +29,7 @@ const Navbar = () => {
               <button className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700 flex items-center">
                 Genetic Testing <ChevronDown className="ml-1 h-4 w-4" />
               </button>
-              <div className="absolute z-10 hidden group-hover:block bg-white shadow-lg rounded-md p-2 w-48">
+              <div className="absolute z-50 hidden group-hover:block bg-white shadow-lg rounded-md p-2 w-48">
                 <Link to="/genetic-testing" className="block px-4 py-2 text-sm hover:bg-gray-100 rounded">
                   About Genetic Testing
                 </Link>
@@ -44,12 +44,12 @@ const Navbar = () => {
             <Link to="/research-services" className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700">
               Research Services
             </Link>
-            <Link to="/partner-institutions" className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700">
+            {/* <Link to="/partner-institutions" className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700">
               Partner Institutions
-            </Link>
-            <Link to="/youth-camp" className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700">
+            </Link> */}
+            {/* <Link to="/youth-camp" className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700">
               Youth Camp Registration
-            </Link>
+            </Link> */}
             <Link to="/contact" className="nav-link px-3 py-2 text-sm font-medium hover:text-green-700">
               Contact Us
             </Link>

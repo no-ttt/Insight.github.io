@@ -1,6 +1,9 @@
 import React from 'react';
 import { Facebook, Instagram, Youtube } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import logo from '/images/logo.png';
+import qr1 from '/images/QR-1.png';
+import qr2 from '/images/QR-2.png';
 
 const Footer = () => {
   return (
@@ -9,7 +12,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-12 gap-8">
           <div className="md:col-span-2 hidden md:block">
             <img 
-              src="https://images.pexels.com/photos/8937580/pexels-photo-8937580.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+              src={logo} 
               alt="i-genomics" 
               className="w-32"
             />
@@ -96,12 +99,12 @@ const Footer = () => {
           <div className="md:col-span-2 flex justify-center md:justify-start">
             <div className="flex space-x-2">
               <img 
-                src="https://images.pexels.com/photos/8937455/pexels-photo-8937455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src={qr1} 
                 alt="QR Code" 
                 className="w-16 h-16 object-cover"
               />
               <img 
-                src="https://images.pexels.com/photos/8937455/pexels-photo-8937455.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" 
+                src={qr2} 
                 alt="QR Code" 
                 className="w-16 h-16 object-cover"
               />

@@ -4,8 +4,12 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const Partners = () => {
   // In a real application, this would be dynamic data
   const partnerImages = [
-    "https://images.pexels.com/photos/8851617/pexels-photo-8851617.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
-    "https://images.pexels.com/photos/3938023/pexels-photo-3938023.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
+    "images/partners_1.png",
+    "images/partners_2.png",
+    "images/partners_3.png",
+    "images/partners_4.png",
+    "images/partners_5.png",
+    "images/partners_6.png",
   ];
 
   return (

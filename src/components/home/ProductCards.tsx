@@ -44,10 +44,7 @@ const ProductCards = () => {
             </p>
             
             {/* Yellow decorative elements */}
-            <div className="absolute top-0 left-0 w-4 h-16 bg-yellow-400 -translate-x-1/2 -translate-y-1/4"></div>
-            <div className="absolute top-0 right-0 w-4 h-16 bg-yellow-400 translate-x-1/2 -translate-y-1/4"></div>
-            <div className="absolute bottom-0 left-0 w-4 h-16 bg-yellow-400 -translate-x-1/2 translate-y-1/4"></div>
-            <div className="absolute bottom-0 right-0 w-4 h-16 bg-yellow-400 translate-x-1/2 translate-y-1/4"></div>
+            <div className="absolute top-4 right-0 w-4 h-16 bg-yellow-400 translate-x-1/2 -translate-y-1/4 -rotate-45"></div>
           </div>
         </div>
 
