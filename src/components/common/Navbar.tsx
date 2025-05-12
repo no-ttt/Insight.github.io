@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Menu, X, User, ShoppingCart, ChevronDown } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import logo from '/images/logo.png';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +13,7 @@ const Navbar = () => {
         <div className="container mx-auto px-4 py-2 flex items-center justify-between">
           <Link to="/" className="flex-shrink-0 w-32">
             <img 
-              src="/images/logo.png" 
+              src={logo} 
               alt="i-genomics" 
               className="w-full"
             />
